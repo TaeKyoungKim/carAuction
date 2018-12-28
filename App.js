@@ -1,12 +1,14 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import IconTextInput from './components/IconTextInput'
+import IconTextInput from './components/IconTextInput';
+import RoundButton from './components/RoundButton';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <IconTextInput/>
+        <RoundButton />
       </View>
     );
   }
